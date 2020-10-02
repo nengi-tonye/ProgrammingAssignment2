@@ -49,6 +49,9 @@ mean has already been calculated. If so, it `get`s the mean from the
 cache and skips the computation. Otherwise, it calculates the mean of
 the data and sets the value of the mean in the cache via the `setmean`
 function.
+mean(cache)
+mean
+
 
     cachemean <- function(x, ...) {
             m <- x$getmean()
